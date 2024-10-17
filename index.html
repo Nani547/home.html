@@ -1,0 +1,119 @@
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
+<!--  If necessary, please modify the charset parameter to specify the        -->
+<!--  character set of your HTML page.                                        -->
+<!--  ----------------------------------------------------------------------  -->
+
+<style>
+    /* General form styling */
+    form {
+        max-width: 300px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+    }
+
+    /* Label styling */
+    label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+
+    /* Input and textarea styling */
+    input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    textarea,
+    select {
+        width: 100%;
+        padding: 6px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    /* Submit button styling */
+    input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    /* Submit button hover effect */
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    /* Optional: Add some spacing between form elements */
+    form>*:not(:last-child) {
+        margin-bottom: 15px;
+    }
+    body{
+        background-image: url('https://banner2.cleanpng.com/20180325/gle/avi8e8zf7.webp');
+        background-size: cover;
+    }
+</style>
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <FORM> element to your page.             -->
+<!--  ----------------------------------------------------------------------  -->
+<body>
+    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00DdM00000DEudx"
+        method="POST">
+
+        <input type=hidden name="oid" value="00DdM00000DEudx">
+        <input type=hidden name="retURL" value="https://nani547.github.io/thanks-page/">
+
+        <!--  ----------------------------------------------------------------------  -->
+        <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+        <!--  these lines if you wish to test in debug mode.                          -->
+        <!--  <input type="hidden" name="debug" value=1>                              -->
+        <!--  <input type="hidden" name="debugEmail"                                  -->
+        <!--  value="mandananikrishna@gmail.com">                                     -->
+        <!--  ----------------------------------------------------------------------  -->
+
+
+        <input id="first_name" maxlength="40" name="first_name" size="20" type="text" placeholder="First Name" /><br>
+
+        <input id="last_name" maxlength="80" name="last_name" size="20" type="text" placeholder="Last Name" /><br>
+
+        <input id="email" maxlength="80" name="email" size="20" type="text" placeholder="Email" /><br>
+
+        <input id="city" maxlength="40" name="city" size="20" type="text" placeholder="City" /><br>
+
+        <input id="state" maxlength="20" name="state" size="20" type="text" placeholder="State" /><br>
+
+        <input id="mobile" maxlength="40" name="mobile" size="20" type="text" placeholder="Mobile" /><br>
+
+        <input id="zip" maxlength="20" name="zip" size="20" type="text" placeholder="Pincode" /><br>
+
+        <input id="country" maxlength="40" name="country" size="20" type="text" placeholder="Country" /><br>
+
+        <select id="00NdM000006JfPH" name="00NdM000006JfPH" title="Service Interest">
+            <option value="">Service Interest</option>
+            <option value="Wash & Fold">Wash & Fold</option>
+            <option value="Dry Cleaning">Dry Cleaning</option>
+            <option value="Wash & Iron">Wash & Iron</option>
+            <option value="Express Delivery">Express Delivery</option>
+            <option value="Premium Package">Premium Package</option>
+            <option value="Curtain Cleaning">Curtain Cleaning</option>
+            <option value="Carpet Cleaning">Carpet Cleaning</option>
+            <option value="Shoe Cleaning">Shoe Cleaning</option>
+        </select><br>
+
+        <input type="submit" name="submit">
+
+    </form>
+</body>
+
+
+
